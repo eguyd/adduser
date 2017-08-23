@@ -2,13 +2,13 @@
 # Stop on any errors
 set -e
 
-echo "Please enter the server's username:"
+echo "Please enter the server's username that you want to add users to:"
 read serveruser
 echo "Please enter the server's IP address that you want to add users to:"
 read address
-echo "Please enter the username"
+echo "Please enter the username to be added"
 read user
-echo "Please enter public ssh key"
+echo "Please enter the public ssh key"
 read pubkey
 
 #Add user with no password and disabled prompt
